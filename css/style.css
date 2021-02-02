@@ -1,0 +1,713 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title .text p {
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.title .text img {
+    display: block;
+}
+
+/* ========================================
+    Header-parat Start
+=========================================== */
+#header-part {
+    background: #0872b9;
+    padding: 12px 0;
+}
+
+#header-part .text {
+    width: 50%;
+}
+
+#header-part .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+#header-part .icon {
+    width: 50%;
+    text-align: right;
+}
+
+#header-part .icon i {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 16px;
+    transition: all linear .5s;
+}
+
+#header-part .icon i:hover {
+    color: #32393d;
+}
+
+/* ========================================
+    Header-parat End
+=========================================== */
+/* ========================================
+    Nav-parat Start
+=========================================== */
+#nav-part {
+    padding: 25px 0;
+}
+
+#nav-part .logo {
+    width: 10%;
+}
+
+#nav-part .menu {
+    width: 90%;
+    text-align: right;
+}
+
+#nav-part .menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#nav-part .menu ul li a {
+    color: #353535;
+    font-size: 16px;
+    font-family: myriad pro;
+    transition: all linear .5s;
+}
+
+#nav-part .menu ul li a:hover {
+    color: #5893c7;
+}
+
+/* ========================================
+    Nav-parat End
+=========================================== */
+/* ========================================
+    Banner-parat Start
+=========================================== */
+#banner-part {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .overlay {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 88px 0;
+}
+
+#banner-part .details {
+    text-align: right;
+}
+
+#banner-part .details h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#banner-part .details h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#banner-part .details p {
+    width: 480px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 30px;
+    color: #fff;
+    margin-left: auto;
+}
+
+#banner-part .details a {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: 33px;
+    border: 1px solid #fff;
+    transition: all linear .5s;
+}
+
+#banner-part .details a:hover {
+    background: #0872b9;
+    border: 1px solid #0872b9;
+}
+
+/* ========================================
+    Banner-parat End
+=========================================== */
+/* ========================================
+    About-parat Start
+=========================================== */
+#about-part {
+    margin-top: 60px;
+}
+
+#about-part .item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#about-part .item .img {
+    width: 29%;
+}
+
+#about-part .item .img img {
+    width: 100%;
+    display: block;
+}
+
+#about-part .item .text {
+    width: 70%;
+}
+
+#about-part .item .text p {
+    width: 591px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 40px;
+}
+
+/* ========================================
+    About-parat End
+=========================================== */
+/* ========================================
+    Service-part Start
+=========================================== */
+#service-part {
+    margin-top: 60px;
+}
+
+#service-part .main-service {
+    justify-content: space-between;
+}
+
+#service-part .main-service .item {
+    width: 31%;
+    margin-top: 70px;
+    background: #f1f1f1;
+    position: relative;
+    transition: all linear .5s;
+}
+
+#service-part .main-service .item .round {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-part .main-service .item .round-one {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-part .main-service .item .round-one .round-two {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#service-part .main-service .item:hover .round-one {
+    border: 2px solid #5bc5f4;
+    transition: all linear .5s;
+}
+
+#service-part .main-service .item:hover .round-one .round-two {
+    background: #5bc5f4;
+    transition: all linear .5s;
+}
+
+#service-part .main-service .item:hover {
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.57);
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.57);
+}
+
+#service-part .main-service .item .details {
+    text-align: center;
+}
+
+#service-part .main-service .item .details h2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+#service-part .main-service .item .details p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ========================================
+    Service-part End
+============================================ */
+/* ==============================================
+POrtfolio-part Start
+=================================================== */
+#port-part {
+    margin-top: 60px;
+}
+
+#port-part ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#port-part ul li:nth-child(even) {
+    flex-direction: column-reverse;
+}
+
+#port-part ul li {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+
+#port-part .item {
+    position: relative;
+    margin-top: 30px;
+}
+
+#port-part ul li .item img {
+    width: 100%;
+}
+
+#port-part .item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0 0 0 / 0.6);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .5s;
+}
+
+#port-part .item:hover .overlay {
+    opacity: 1;
+}
+
+#port-part .item .overlay i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50%;
+    background: #5bc5f4;
+    color: #fff;
+    opacity: 0;
+    transition: all linear .5s;
+}
+
+#port-part .item:hover .overlay i {
+    opacity: 1;
+}
+
+/* ============================================
+        POrtfolio-part End 
+================================================ */
+/* ========================================
+    Team-parat Start
+=========================================== */
+#team-part {
+    margin-top: 60px;
+}
+
+#team-part .team-holder {
+    justify-content: space-between;
+}
+
+#team-part .team-holder .item {
+    width: 24%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#team-part .team-holder .item:hover .img {
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.57);
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.57);
+}
+
+#team-part .team-holder .item:hover .img .overlay {
+    opacity: 1;
+}
+
+#team-part .team-holder .item:hover h2 {
+    color: #5bc5f4;
+}
+
+#team-part .team-holder .item .img {
+    width: 100%;
+    background: #f1f1f1;
+    padding-top: 10px;
+    position: relative;
+}
+
+#team-part .team-holder .item .img .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    opacity: 0;
+    transition: all linear .5s;
+}
+
+#team-part .team-holder .item .img .overlay i {
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 40px;
+    margin-top: 18px;
+    margin-left: 17px;
+    transition: all linear .5s;
+}
+
+#team-part .team-holder .item .img .overlay i:hover {
+    background: #5bc5f4;
+    border: 1px solid #5bc5f4;
+}
+
+#team-part .team-holder .item h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #353535;
+    transition: all linear .5s;
+    margin-top: 10px;
+}
+
+#team-part .team-holder .item p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b0b0b0;
+}
+
+/* ========================================
+    Team-parat End
+=========================================== */
+/* =========================================
+        Testimonial part start
+============================================ */
+#test-part {
+    margin-top: 60px;
+}
+
+#test-part .main-test {
+    justify-content: space-between;
+}
+
+#test-part .main-test .item {
+    width: 46%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#test-part .main-test .item .img {
+    background: #f1f1f1;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#test-part .main-test .item .img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#test-part .main-test .item .text {
+    margin-top: 35px;
+    text-align: center;
+    padding: 10px;
+    background: #f1f1f1;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.46);
+}
+
+#test-part .main-test .item .text .shape {
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    transform: translate(-50%, -50%) rotate(135deg);
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+#test-part .main-test .item .text h2 {
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+}
+
+#test-part .main-test .item .text i {
+    color: #5bc5f4;
+    font-size: 13px;
+}
+
+#test-part .main-test .item .text h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5f5f5f;
+}
+
+#test-part .main-test .item .text p {
+    width: 555px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5f5f5f;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* =========================================
+        Testimonial part End
+============================================ */
+/* ========================================
+    Footer-part Start
+=========================================== */
+#footer-part {
+    margin-top: 60px;
+    background: #353535;
+}
+
+#footer-part h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 32px;
+    color: #fff;
+}
+
+#footer-part .footer-main {
+    justify-content: space-between;
+}
+
+#footer-part .footer-main .logo {
+    width: 22%;
+    margin-top: 20px;
+}
+
+#footer-part .footer-main .logo p {
+    width: 233px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+#footer-part .footer-main .contact {
+    width: 22%;
+    margin-right: 10px;
+
+}
+
+#footer-part .footer-main .contact ul {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#footer-part .footer-main .contact .contact-num {
+    width: 104px;
+}
+
+#footer-part .footer-main .contact ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+#footer-part .footer-main .contact ul li i {
+    font-size: 16px;
+    background: #5bc5f4;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+}
+
+#footer-part .footer-main .important {
+    width: 17%;
+}
+
+#footer-part .footer-main .important .contant {
+    display: flex;
+}
+
+#footer-part .footer-main .important ul {
+    margin-right: 15px;
+}
+
+#footer-part .footer-main .important ul li {
+    margin-top: 25px;
+}
+
+#footer-part .footer-main .important ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    transition: all linear .5s;
+}
+
+#footer-part .footer-main .important ul li a:hover {
+    color: #53a8ce;
+}
+
+#footer-part .footer-main .flkr {
+    width: 26%;
+
+}
+
+#footer-part .footer-main .flkr .holder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+#footer-part .footer-main .flkr .holder .img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#footer-part .footer-main .flkr .holder .img img {
+    width: 100%;
+}
+
+/* ========================================
+    Footer-part End
+=========================================== */
+/* =======================================
+Footer-bottom part Start
+========================================== */
+#footer-bottom {
+    background: #555555;
+    padding: 15px 0;
+    box-shadow: inset 0px 40px 166px -88px #00000033;
+}
+
+#footer-bottom .developer {
+    text-align: center;
+}
+
+#footer-bottom .developer p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
+#footer-bottom .developer p span {
+    color: #58899f;
+    text-transform: uppercase;
+}
+
+/* =======================================
+Footer-bottom part End
+========================================== */
